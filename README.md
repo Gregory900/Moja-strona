@@ -1,1 +1,1 @@
-# Moja-strona
+Tym samym poblikuję kod do mojej pierwszej strony internetowej: o mnie. Podobnie chętnie posłucham uwag i wskazówek na temat tej strony. Oczywiście standardowo bazuje ona na HTML oraz CSS, a także małych elementach JS (np. zegar w stopce, lub w zakładce "Projekty" zmieniające się co 5 sekund zdjęcie).
