@@ -1,0 +1,185 @@
+<!doctype html>
+
+<html lang="pl">
+<head>
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-MMG6DXK');</script>
+	<!-- End Google Tag Manager -->
+	
+	<meta charset="utf-8" />
+	<title> Grzegorz Waligórski</title>
+	<meta name="description" content="To strona o mnie, Grzegorzu Waligórskim. Człowieku głodnym nowych wyzwań i ciągłego rozwoju" />
+	<meta name="keywords" content="programowanie, automatyka, HTML, CSS, Javascript, portfolio" />
+	<meta http-equiv="X-UA-compatible" content="IE=edge,chrome=1" />
+	
+	<link href="css/fontello.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="proj.css" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap" rel="stylesheet">
+	
+	<script src="jquery-3.6.0.min.js"></script>
+	
+	<script type="text/javascript">
+	
+		var numer = 0
+		var numer1=0
+		
+		var timer1 = 0;
+		var timer2 = 0;
+		
+		var timer11 = 0;
+		var timer21 = 0;
+		
+		function ustawslajd(nrslajdu)
+		{
+			clearTimeout(timer1);
+			clearTimeout(timer2);
+			numer=nrslajdu-1;
+			
+			schowaj();
+			setTimeout("zmienslajd()",500);
+		}
+		
+		function ustawslajd1(nrslajdu)
+		{
+			clearTimeout(timer11);
+			clearTimeout(timer21);
+			numer1=nrslajdu-1;
+			
+			schowaj1();
+			setTimeout("zmienslajd1()",500);
+		}
+		
+		function schowaj()
+		{
+			$("#slider").fadeOut(500);
+		}
+		
+		function schowaj1()
+		{
+			$("#slider1").fadeOut(500);
+		}
+		
+		
+		function zmienslajd()
+		{
+			numer ++; if (numer>4) numer=1;
+			
+			var plik = "<img src=\"slajd"+numer+".jpg\" width=500, height=300/>";
+			
+			document.getElementById("slider").innerHTML = plik;
+			$("#slider").fadeIn(500);
+			
+			timer1= setTimeout("zmienslajd()",5000);
+			timer2= setTimeout("schowaj()", 4500);
+		
+		}
+		
+		function zmienslajd1()
+		{
+			numer1 ++; if (numer1>4) numer1=1;
+			
+			var plik = "<img src=\"slajd1"+numer1+".jpg\" width=500, height=300/>";
+		
+			document.getElementById("slider1").innerHTML = plik;
+			$("#slider1").fadeIn(500);
+			
+			timer11= setTimeout("zmienslajd1()",5000);
+			timer21= setTimeout("schowaj1()", 4500);
+		
+		}
+		
+	</script>
+	
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-NGXGFBRM0B"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-NGXGFBRM0B');
+	
+	</script>
+	
+</head>
+<body onload="zmienslajd(),zmienslajd1()">
+
+		<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMG6DXK"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	
+	<div id="logo">
+		projekty - Grzegorz Waligórski
+		</div>
+	
+		<div id="topbar">
+			<a href="../omnie/omnie.html"><div class="menu">O mnie</div></a>
+			<a href="projekt.html"><div class="menu">Projekty</div></a>
+			<a href="../kontakt/kontakt.html"><div class="menu">Kontakt</div></a>
+		</div>
+		
+		<div id="container">
+			
+			<div id="wpisy">
+			
+				<ol> 
+
+					<li>Projekty IT:
+						<ul> 
+							<li><a href="https://grzegorz-waligorski.pl" target="_blank">grzegorz-waligorski</a></li>
+							<li><a href="https://trip-po-kubie.pl" target="_blank">trip-po-kubie</a></li>
+							<li>To moje dwie strony stworzone i opublikowane w internecie. Bazują ona na wiedzy z HTML, CSS oraz podsaw JS. Zamierzam dalej rozwijać swoje umiejętnosci w tym zakresie i na pewno jeszcze wiele rzeczy powinno zostać tu naprawionych. Podaje również link do mojego <a href="https://github.com/Gregory900" target="_blank">GitHub.</a></li>
+						</ul>
+					</li>
+					
+					<li>Projekty w automotive:			
+						<ul>						
+							<li>Hannover, Volkswagen, ABB, Trnasporter T6</li>
+							<li>Hannover, Volkswagen, ABB, Transporter T7</li>
+							<li>Paletyzacja robot KUKA, Holzexport Kielce</li>
+							<li>Zwickau, Volkswagen, KUKA, ID.3 i ID.4</li>
+							<li>Chattanooga, USA, Volkswagen, FANUC, ID.4</li>
+							<li>Swarzędz, Poland Volkswagen, ABB, Caddy 5</li>
+							<li>Emden, Volkswagen, FANUC, ID.4</li>
+							<li>Ingolstadt, Audi, KUKA, E-tron</li>	
+							<li>Powyższe projekty bazują na uruchomieniu i programowaniu robotów bazując na języku C++ oraz Standardzie VASS, a także ustaleniu trajektorii robotów, testowaniu i nadzorowaniu produkcji i dokumentacji.
+						</ul>	
+					</li>
+					
+					<li>Product Manager:
+						<ul>	
+							<li>Opieka nad produktem aparatury elektrotechnicznej na rynku Polskim</li>
+							<li>Prezentacje, seminaria i szkolenia dla klientów</li>
+							<li>Tworzenie artykułów technicznych i publikacji dla pism elektrotechnicznych</li>
+							<li>Kontrolowanie, budowanie cennika, katalogów i innych materiałów promocyjnych</li>
+							<li> Doradzwo techniczne z oferowanego asortymentu oraz fotowoltaiki</li>
+						</ul>	
+					</li>
+				</ol>
+				
+			</div>
+			
+			<div id="zdjecia">
+			
+				<span onclick="ustawslajd(1)" style="cursor:pointer;">[  1 ]</span>
+				<span onclick="ustawslajd(2)" style="cursor:pointer;">[  2 ]</span>
+				<span onclick="ustawslajd(3)" style="cursor:pointer;">[  3 ]</span>
+				<span onclick="ustawslajd(4)" style="cursor:pointer;">[  4 ]</span>
+				<div id="slider"></div>
+				
+				<span onclick="ustawslajd1(1)" style="cursor:pointer;">[ 1 ]</span>
+				<span onclick="ustawslajd1(2)" style="cursor:pointer;">[ 2 ]</span>
+				<span onclick="ustawslajd1(3)" style="cursor:pointer;">[ 3 ]</span>
+				<span onclick="ustawslajd1(4)" style="cursor:pointer;">[ 4 ]</span>
+				<div id="slider1"></div>
+		
+			</div>
+		
+</body>
+</html>

@@ -1,0 +1,200 @@
+body
+{
+	background-color: #222222;
+	margin: 0 !important;
+	font-family: 'Lato', sans-serif;
+}
+
+#logo
+{
+	font-size:38px;
+	color:white;
+	background-color: #222222;
+	width:100%;
+	text-align:center;
+	text-transform: uppercase;
+	letter-spacing:4px;
+	margin-top:32px;
+	font-weight:800;
+}
+
+#topbar
+{
+	width:100%;
+	margin-top:20px;
+	height:100%;
+	background-color: #222222;
+	text-align:center;
+}
+
+.menu
+{
+	width:180px;
+	display:inline-block;
+	color:white;
+	font-size:28px;
+	padding:20px;
+	font-style:oblique;
+	letter-spacing:3px;
+	weight:700;
+
+}
+
+.menu:hover
+{
+
+	color:#222222;
+	font-size:28px;
+	font-style:oblique;
+	letter-spacing:3px;
+	weight:700;
+	cursor:pointer;
+	background-color:#dddddd;
+
+}
+
+#ja1
+{
+	width:100%;
+	margin-top:30px;
+	font-size:20px;
+	background-color: #dddddd;
+	text-align:center;
+	height:100%;
+	border-top: 3px solid #000000;
+	border-bottom: 3px solid #000000;
+}
+
+#ja2
+{
+	width:100%;
+	font-size:20px;
+	background-color: #222222;
+	text-align:center;
+	height:100%;
+	border-bottom: 3px solid #000000;
+}
+
+#ja3
+{
+	width:100%;
+	font-size:20px;
+	background-color: #dddddd;
+	text-align:center;
+	height:100%;
+	border-bottom: 3px solid #000000;
+}
+
+#container
+{
+	width:100%;
+	text-align:center;
+}
+
+#jatext1
+{
+	display:inline-block;
+	width:45%;
+	height:100%;
+	text-align:justify;
+	font-size:28px;
+	color:#333333;
+	weight:500px;
+	margin-left:4%;
+	vertical-align:top;
+	margin-top:50px;
+}
+
+#jafot1
+{
+	display:inline-block;
+	width:25%;
+	height:100%;
+	text-align:center;
+	padding:50px;
+	margin:0 5%;
+}
+
+
+#jafot2
+{
+	display:inline-block;
+	width:38%;
+	height:100%;
+	text-align:center;
+	padding: 50px 10px;
+	margin:0;
+}
+
+#jatext2
+{
+	display:inline-block;
+	width:40%;
+	height:100%;
+	text-align:justify;
+	font-size:28px;
+	color:#dddddd;
+	weight:500px;
+	margin-left:100px;
+	vertical-align:top;
+	margin-top:50px;
+
+}
+
+.jafot1
+{
+	width:100%;
+	height:100%;
+	border:1px solid #222222;
+}
+
+.jafot2
+{
+	width:100%;
+	height:100%;
+	border:1px solid #dddddd;
+}
+
+#motto
+{
+	font-size:43px;
+	color:#222222;
+	weight:500px;
+	padding:5px 110px;
+	letter-spacing:2px;
+
+}
+
+h1
+{
+	font-size:44px;
+	letter-spacing:2px;
+	font-style:bold;
+}
+
+#footer
+{
+	text-align:center;
+	width:100%;
+	color:#dddddd;
+	height:30px;
+	margin-top:3px;
+	font-size:18px;
+}
+
+#stopka
+{	
+
+	display:inline-block;
+	color:#dddddd;
+}
+
+#zegar
+{
+	display:inline-block;
+	margin-left:6px;
+	color:#dddddd;
+}
+
+
+	

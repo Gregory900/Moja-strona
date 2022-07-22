@@ -1,0 +1,251 @@
+body
+{
+	background-image: url("tlo.jpg");
+	margin: 0 !important;
+	font-family: 'Lato', sans-serif;
+	color:white;
+}
+
+#logo
+{
+	display:flex;
+	justify-content:center;
+	font-size:38px;
+	color:white;
+	width:1100px;
+	text-align:center;
+	text-transform: uppercase;
+	letter-spacing:4px;
+	margin-top:32px;
+	font-weight:800;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#topbar
+{
+	display:flex;
+	justify-content:center;
+	width:1100px;
+	margin-top:20px;
+	height:100px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.menu
+{
+	width:180px;
+	display:inline-block;
+	color:white;
+	font-size:28px;
+	padding:20px;
+	font-style:oblique;
+	letter-spacing:3px;
+	weight:700;
+	text-align:center;
+
+}
+
+.menu:hover
+{
+	color:#222222;
+	font-size:28px;
+	font-style:oblique;
+	letter-spacing:3px;
+	weight:700;
+	cursor:pointer;
+	background-color:#dddddd;
+
+}
+
+#container
+{
+	width:1000px;
+	padding:50px;
+	border-radius:10px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:50px;
+	height:450px;
+	-webkit-box-shadow: inset -1px 0px 29px -7px rgba(228, 216, 216, 1);
+	-moz-box-shadow: inset -1px 0px 29px -7px rgba(228, 216, 216, 1);
+	box-shadow: inset -1px 0px 29px -7px rgba(228, 216, 216, 1);
+	text-align:center;
+}
+
+
+input[type="mail"]
+{
+	width:320px;
+	height:40px;
+	background-color:#e9f3e9;
+	border-radius:7px;
+	background-color:#dddddd;
+	color:#111111;
+	font-size:17px;
+	margin-bottom:20px;
+	border:2px solid #222222;
+	font-family: verdana;
+	font-weight:500;
+	padding-left:10px;
+	box-sizing:border-box;
+	outline:none;
+}
+
+textarea[type="tresc"]
+{
+	width:320px;
+	height:260px;
+	border-radius:7px;
+	background-color:#dddddd;
+	color:#111111;
+	font-size:17px;
+	margin-top:20px;
+	border:2px solid #222222;
+	font-family: verdana;
+	font-weight:500;
+	padding:10px;
+	box-sizing:border-box;
+	outline:none;
+}
+
+input[type="mail"]:focus, 
+textarea[type="tresc"]:focus
+{
+	-webkit-box-shadow: -1px 0px 6px 2px rgba(179, 174, 174, 1);
+	-moz-box-shadow: -1px 0px 6px 2px rgba(179, 174, 174, 1);
+	box-shadow: -1px 0px 6px 2px rgba(179, 174, 174, 1);
+	border:2px solid #cccccc;
+	background-color:#eeeeee;
+	color:#111111;
+}
+	
+input[type="submit"]
+{
+	width:170px;
+	height:60px;
+	margin-left:10px;
+	margin-top:30px;
+	border-radius:7px;
+	background-color:#bbbbbb;
+	color:white;
+	font-size:24px;
+	font-family: verdana;
+	font-weight:500;
+	cursor:pointer;
+	outline:none;
+}
+
+input[type="submit"]:focus
+{
+	-webkit-box-shadow: -1px 0px 6px 2px rgba(179, 174, 174, 1);
+	-moz-box-shadow: -1px 0px 6px 2px rgba(179, 174, 174, 1);
+	box-shadow: -1px 0px 6px 2px rgba(179, 174, 174, 1);
+	border:2px solid #cccccc;
+}
+
+input[type="submit"]:hover
+{
+	background-color:#888888;
+}
+
+#formularz
+{
+	width:350px;
+	border-radius:10px;
+	margin-left:20px;
+	margin-top:5px;
+	height:450px;
+	float:left;
+
+}
+
+#socials
+{
+	width:590px;
+	height:450px;
+	float:left;
+	margin-left:40px;
+}
+
+#linkedin
+{
+	width:260px;
+	height:200px;
+	float:left;
+	text-align:center;
+	background-color:#bbbbbb;
+	cursor:pointer;
+	border-radius:10px;
+}
+
+#fb
+{
+	width:260px;
+	height:200px;
+	margin-left:35px;
+	float:left;
+	text-align:center;
+	background-color:#bbbbbb;
+	cursor:pointer;
+	border-radius:10px;
+}
+
+#yt
+{
+	width:260px;
+	height:200px;
+	margin-top:35px;
+	float:left;
+	text-align:center;
+	background-color:#bbb;
+	cursor:pointer;
+	border-radius:10px;
+}
+
+#inst
+{
+	width:260px;
+	height:200px;
+	margin-left:35px;
+	margin-top:35px;
+	float:left;
+	text-align:center;
+	background-color:#bbb;
+	cursor:pointer;
+	border-radius:10px;
+}
+
+#linkedin:hover
+{
+	background-color:#888888;
+}
+
+#fb:hover
+{
+	background-color:#888888;
+}
+
+#yt:hover
+{
+	background-color:#888888;
+}
+
+#inst:hover
+{
+	background-color:#888888;
+}
+
+a:link
+{
+	color:white
+}
+a:visited
+{
+	color:white
+}
+
+
+	
